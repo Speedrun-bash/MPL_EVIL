@@ -11,7 +11,7 @@ sudo apt upgrade
 sudo apt-get install perl
 sudo apt-get install cpanminus
 sudo apt-get install git
-git clone https://github.com/Sppedrun-bash/MPL_EVIL
+git clone https://github.com/Speedrun-bash/MPL_EVIL
 cd MPL_EVIL
 cpan (tunggu sampai selesai habis itu CTRL && z)
 cpanm $(cat cpanfile)
@@ -25,7 +25,7 @@ pkg upgrade
 pkg install perl
 pkg install build-essential
 pkg install git
-git clone https://github.com/Sppedrun-bash/MPL_EVIL
+git clone https://github.com/Speedrun-bash/MPL_EVIL
 cd MPL_EVIL
 cpan (tunggu sampai selesai habis itu ctrl dan c)
 cpan App::cpanminus
