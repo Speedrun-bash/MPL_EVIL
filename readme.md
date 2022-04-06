@@ -27,6 +27,8 @@ pkg install build-essential
 pkg install git
 git clone https://github.com/Speedrun-bash/MPL_EVIL
 cd MPL_EVIL
+unzip build.zip; mv perl5/ /data/data/com.termux/files/usr/lib
+cd; cd MPL_EVIL (sesuaikan dengan lokasi folder MPL_EVIL)
 cpan (tunggu sampai selesai habis itu ctrl dan c)
 cpan App::cpanminus
 cpanm $(cat cpanfile)
